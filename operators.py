@@ -84,8 +84,40 @@ print((a2>b2) and (b2<a2)) #true
 print(a1 and a2) #78
 print(b1 and b2) #false
 
+
+
 # or
+
 print(a1 or b1) #true
 print((a2>b2) or (a2<b2)) #true
 print((a2<b2) or b1) #false
+
+
+
+# TYPE CONVERSION
+
+aa=12
+bb=13.43
+sum=aa+bb # 12+13.43=25.43
+print(sum) #25.43
+
+
+# type casting
+
+a21=int("12") # string to int
+print(a21) #12
+b21=float("34.34") # string to float
+print(b21) #34.34
+add=a21+b21 # 12+34.34=46.34
+print(add) #46.34
+
+
+a12="tejas"
+b12=str(1)
+print(type(b12)) #<class 'str'>
+con=a12+b12 # tejas1
+print(con) #tejas1
+
+
+
 
