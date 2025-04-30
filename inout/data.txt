@@ -1,4 +1,4 @@
-to: karnatakasic@nic.in
+fromkarnatakasic@nic.in
 
 
 

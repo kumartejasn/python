@@ -1,0 +1,5 @@
+f=open("C:\Pythonproject1\inout\data3.txt" , "r+")
+f.write("befvdvefbgvdf")
+x=f.read()
+print(x)
+f.close()
