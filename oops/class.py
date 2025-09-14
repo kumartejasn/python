@@ -124,34 +124,64 @@
 # print(details.person("narayanswami"))
 
 
-class Student:
-    name="kumar"
-    education="BE"
-    total=[]
+# class Student:
+#     name="kumar"
+#     education="BE"
+#     total=[]
 
-    def __init__(self,sub1,sub2,sub3):
-        self.sub1=sub1
-        self.sub2=sub2
-        self.sub3=sub3
+#     def __init__(self,sub1,sub2,sub3):
+#         self.sub1=sub1
+#         self.sub2=sub2
+#         self.sub3=sub3
     
-    def student(self):
-         Student.total = self.sub1+self.sub2+self.sub2
-         return Student.total
+#     def student(self):
+#          Student.total = self.sub1+self.sub2+self.sub2
+#          return Student.total
     
-    @classmethod
-    def marks(cls):
-        return cls.name
+#     @classmethod
+#     def marks(cls):
+#         return cls.name
 
-student=Student(98,77,88)
-print(Student.marks())
-print(student.student())
-
-
-
-# empty method
-
-class Example:
-    def empty(self):
-        pass
+# student=Student(98,77,88)
+# print(Student.marks())
+# print(student.student())
 
 
+
+# # empty method
+
+# class Example:
+#     def empty(self):
+#         pass
+
+
+# class Tejas:
+    
+#     def _init__(self, name, age):
+#         self.name1=name
+#         self.age1=age
+    
+#     def person(self,familyname):
+#         return self.name1,self.age1, familyname 
+# tejas=Tejas("tejas", 24)
+# print(tejas.person("nanjappagari"))
+
+
+# class Company:
+#     def __init__(self, turnover, profit, employees):
+#         self.turnover1=turnover
+#         self.profit1=profit
+#         self.employees1=employees
+#         self.salaryExpense=[]
+
+#     def add_salary_expense(self, salary):
+#         """Add a salary expense to the company's salary expense list."""
+#         self.salaryExpense.append(salary)
+    
+#     def company_details(self):
+#         return f"Turnover: {self.turnover1}, Profit: {self.profit1}, Employees: {self.employees1}"
+
+# company=Company(10000000, 1000000, 100)
+# company.add_salary_expense(4000000)
+# print(company.company_details())
+# print(f"Salary Expenses: {company.salaryExpense}")
